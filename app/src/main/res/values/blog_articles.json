@@ -1,0 +1,16 @@
+{
+  "data": [
+    {
+      "title": "G'day from Sydney",
+      "date": "August 2, 2019",
+      "views": 2687,
+      "rating": 4.4,
+      "image": "https://raw.githubusercontent.com/larryliu0820/BlogApp/master/app/src/main/res/drawable/sydney_image.jpeg",
+      "author": {
+        "name": "Grayson Wells",
+        "avatar": "https://raw.githubusercontent.com/larryliu0820/BlogApp/master/app/src/main/res/drawable/avatar_image.jpg"
+      },
+      "description": "Australia is one of the most popular travel destinations in the world."
+    }
+  ]
+}
