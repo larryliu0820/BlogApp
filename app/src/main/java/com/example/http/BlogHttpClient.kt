@@ -8,8 +8,11 @@ import okhttp3.Response
 import java.util.concurrent.Executors
 
 object BlogHttpClient {
-    private const val BASE_URL = "https://raw.githubusercontent.com/larryliu0820/BlogApp/master/app/src/main/java/com/example/http/"
-    private const val BLOG_ARTICLES_URL = "blog_articles.json"
+    const val BASE_URL = "https://raw.githubusercontent.com/larryliu0820/BlogApp/master/app/src/main"
+    private const val PATH = "/java/com/example/http/asserts"
+    const val IMAGE_PATH = "/res/drawable"
+
+    private const val BLOG_ARTICLES_URL = "$BASE_URL$PATH/blog_articles.json"
 
     private val executor = Executors.newFixedThreadPool(4)
     private val client = OkHttpClient()
